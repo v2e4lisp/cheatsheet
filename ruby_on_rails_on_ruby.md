@@ -25,14 +25,14 @@ File.new("/tmp/task.lock").flock( File::LOCK_NB | File::LOCK_EX )
 
 ## Create gem
 
-### create skeleton
+### create gem skeleton
 ```bash
 bundle gem funny-name
 ```
 
 ### local install
 ```bash
-rake instal
+rake install
 ```
 
 
