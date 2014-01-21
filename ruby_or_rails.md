@@ -1,6 +1,8 @@
 # ruby/rails
 
 ## ensure only one process for some rake task
+FROM [stack overflow](http://stackoverflow.com/questions/3983883/how-to-ensure-a-rake-task-only-running-a-process-at-a-time)
+
 ```ruby
 task :my_task do
   pid_file = '/tmp/my_task.pid'
@@ -13,6 +15,8 @@ task :my_task do
   end
 end
 ```
+
+similar for [shell script](http://stackoverflow.com/questions/185451/quick-and-dirty-way-to-ensure-only-one-instance-of-a-shell-script-is-running-at)
 
 
 
