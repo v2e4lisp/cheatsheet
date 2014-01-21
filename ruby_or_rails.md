@@ -17,6 +17,7 @@ end
 [detail on stack overflow](http://stackoverflow.com/questions/3983883/how-to-ensure-a-rake-task-only-running-a-process-at-a-time)
 
 OR
+
 ```ruby
 File.new("/tmp/task.lock").flock( File::LOCK_NB | File::LOCK_EX )
 ```
