@@ -1,6 +1,6 @@
-# ruby/rails
+# ruby on rails on ruby
 
-## ensure only one process for some rake task
+## Ensure only one process for some rake task
 
 ```ruby
 task :my_task do
@@ -23,7 +23,7 @@ File.new("/tmp/task.lock").flock( File::LOCK_NB | File::LOCK_EX )
 ```
 [detail on stack overflow](http://stackoverflow.com/questions/661684/how-do-i-ensure-only-one-instance-of-a-ruby-script-is-running-at-a-time)
 
-## create gem
+## Create gem
 
 ### create skeleton
 ```bash
